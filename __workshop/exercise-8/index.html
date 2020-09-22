@@ -1,1 +1,79 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Registration form</h1>
+    <table>
+
+        <tr>
+            <td><label for="uname">Username:</label><br></td>
+            <td><input type="text" id="uname" name="uname" value=""><br></td>
+            <td><label for="pword">password:</label><br></td>
+            <td><input type="text" id="pword" name="pword" value=""><br></td>
+            <td><label for="email">Email:</label><br></td>
+            <td><input type="text" id="email" name="email" value=""><br></td>
+        </tr>
+    </table>
+
+    <h2>Which taxi do you require?</h2>
+
+    <table>
+
+        <tr>
+            <td><input type="radio" id="car" name="car" value="car"><br></td>
+            <td><label for="car">Car</label><br></td>
+            <td><input type="radio" id="van" name="van" value="van"><br></td>
+            <td><label for="van">Van</label><br></td>
+            <td><input type="radio" id="tuk tuk" name="tuk tuk" value="tuk tuk"><br></td>
+            <td><label for="tuk tuk">Tuk Tuk</label><br></td>
+        </tr>
+    </table>
+
+    <h2>Choose your extras</h2>
+
+    <table>
+
+        <tr>
+            <td><input type="checkbox" id="baby seat" name="baby seat" unchecked></td>
+            <td><label for="baby seat">Baby seat</label></td>
+            <td><input type="checkbox" id="wheelchair access" name="wheelchair access" unchecked></td>
+            <td><label for="wheelchair access">Wheelchair access</label></td>
+            <td><input type="checkbox" id="privacy windows" name="privacy windows" unchecked></td>
+            <td><label for="privacy windows">Privacy windows</label></td>
+        </tr>
+    </table>
+
+
+    <h2>Where would you like us to pick you up?</h2>
+
+    <table>
+
+        <tr>
+            <td><label for="Pickup">Pickup Location:</label></td>
+            <td><select name="Pickup" id="Pickup">
+                <option value="Here">Here</option>
+                <option value="There">There</option>
+                <option value="Everywhere">Everywhere</option>
+              </select></td>
+
+        </tr>
+    </table>
+
+
+    <h2>Additional Instructions</h2>
+
+    <table>
+
+        <tr>
+            <td>
+                <p>Special</p>
+            </td>
+            <td><textarea rows="2" cols="35" name="comment" form="usrform">
+                Provide special instructions here...</textarea></td>
+            <td><input type="submit"></td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
